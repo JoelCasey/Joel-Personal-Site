@@ -1,0 +1,130 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0585af, #02048a, #430081);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    font-family: "Oleo Script";
+  }
+
+  h2 {
+    font-family: "Oleo Script";
+  }
+
+  h3 {
+    font-family: "Oleo Script";
+  }
+
+  h4 {
+    font-family: "Oleo Script";
+  }
+
+  p {
+    font-family: "Montserrat";
+  }
+
+  .heading {
+    margin: 0 !important;
+    padding: 40px;
+  }
+
+  .my-name {
+    color: white !important;
+    font-family: "Oleo Script";
+  }
+
+  .computer-pic {
+    border-radius: 15%;
+    
+  }
+
+  .about {
+    background-color: rgb(224, 224, 224);
+    
+  }
+
+  .about-body {
+    margin: 0 !important;
+    
+  }
+
+  .about-paragraph {
+    font-weight: 400!important;
+  }
+
+  .my-photo {
+    border-radius: 50%;
+    border: solid 10px #0585af;
+   
+  }
+
+  .info {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+
+  .bassist-img {
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    border-radius: 50%;
+    border: solid 10px #02048a;
+  }
+
+  .info-heading {
+    border-bottom: solid 15px #02048a;
+    font-size: 40px;
+  }
+
+  .info-p {
+    font-size: large;
+  }
+
+  .info-section {
+    text-align: right;
+    font-size: medium;
+  }
+ 
+
+  .vader-img {
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    border-radius: 50%;
+    border: solid 10px  #430081;
+  }
+
+  .car-img {
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    border-radius: 50%;
+    border: solid 10px #0585af;
+  }
+
+ .contact-section {
+  background-color:  rgb(224, 224, 224);
+  margin: 0 !important;
+ }
+
+ .footer-section {
+  margin: 0 !important;
+ }
+
+ .copyright {
+  color: white;
+ }
